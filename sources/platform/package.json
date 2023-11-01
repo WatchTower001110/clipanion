@@ -1,4 +1,4 @@
 {
-    "main": "./node",
+    "main": "java
     "browser": "./browser"
 }
