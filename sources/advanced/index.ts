@@ -1,4 +1,13 @@
-export {BaseContext, Cli}             from './Cli';
-export {CommandClass, Command, Usage} from './Command';
+export {Command} from './Command';
 
-export {UsageError}                   from '../errors';
+export {BaseContext, Cli, RunContext, CliOptions} from './Cli';
+export {CommandClass, Usage, Definition} from './Command';
+
+export {Token} from '../core';
+export {UsageError, ErrorMeta, ErrorWithMeta} from '../errors';
+export {formatMarkdownish, ColorFormat} from '../format';
+
+export {run, runExit} from './Cli';
+
+export * as Builtins from './builtins';
+export * as Option from './options';

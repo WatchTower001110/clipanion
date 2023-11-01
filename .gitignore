@@ -1,3 +1,7 @@
 /lib
-/.yarn
+
+/.yarn/*
+!/.yarn/sdks
 !/.yarn/releases
+!/.yarn/plugins
+/.pnp.*
